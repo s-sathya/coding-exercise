@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  min-width: 400px;
+}
+
+.headerLeft {
+  flex: 0.3;
+}
+
+.headerCenter {
+  display: flex;
+  justify-content: center;
+  flex: 0.3;
+}
+
+.logo {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  color: red;
+  text-decoration: none;
+  font-weight: 800;
+  margin: 16px 0px 28px 0px;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: right;
+  flex: 0.3;
+}

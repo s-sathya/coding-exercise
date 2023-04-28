@@ -1,0 +1,25 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 2px;
+  width: 200px;
+  height: auto;
+}
+
+.productContainer * {
+  cursor: pointer;
+}
+
+.productImage {
+  width: 200px;
+  height: 250px;
+}
+
+.productText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 16px 0px 28px 0px;
+}
